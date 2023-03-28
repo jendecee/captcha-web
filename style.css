@@ -242,12 +242,12 @@ nav a {
     border-radius: 15px;
     background: linear-gradient(to top, rbg(255,45,45) 50%, white 50%);
     background-size: 100% 200%;
-    transition: all 0.8s;
     font-size: x-large;
     line-height: 40px;
 }
 
 .box:hover {
+    transition: 1s;
     background-color: #9E7676;
     background-position: left bottom;
     color: white;
